@@ -19,6 +19,5 @@ $dbParams = array(
     'password' => 'usuario',
     'dbname'   => 'market_online',
 );
-$config = Setup::createAnnotationMetadataConfiguration($paths, $isDevMode);
 $entityManager = EntityManager::create($dbParams,$config);
 
